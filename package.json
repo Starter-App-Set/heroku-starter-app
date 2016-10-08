@@ -1,0 +1,9 @@
+{
+  "name": "heroku-starter-app",
+  "description": "Starter App for back-end component hosted on Heroku",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.x"
+  }
+}
