@@ -14,5 +14,6 @@ console.log('Listening at port %d', port);
 app.get('/getData', function(req, res){
 	console.log("Received request");
 	res.setHeader('status', 200);
+	res.setHeader('vary', 'Accept-Encoding');
 	res.json(data);
 });
