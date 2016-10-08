@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "cors": "^2.8.1",
     "express": "4.x",
     "gzippo": "^0.2.0"
   }
